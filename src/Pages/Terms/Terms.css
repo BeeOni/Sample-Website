@@ -1,0 +1,30 @@
+.termscon{
+    width: 80%;
+    border: hidden;
+    margin: auto;
+    margin-bottom: 100px;
+    
+}
+
+.termsh2{
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #303A42;
+    font-size: 30px;
+}
+
+.termscon h3{
+    color: #303A42;
+}
+
+.termscon p{
+    font-size: 14px;
+}
+
+.eclipse2{
+    width: 8%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 20px;
+    margin-left: 70px;
+}

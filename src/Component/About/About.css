@@ -1,0 +1,78 @@
+.aboutcon{
+    border: hidden;
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.minicon{
+    width: 40%;
+    line-height: 20px;
+    margin-left: 70px;
+}
+
+.minicon p{
+    font-size: 13px;
+}
+
+.h31{
+    margin-bottom: 10px;
+    color: #0093FF;
+}
+
+.h32{
+    margin-top: 10px;
+}
+
+.rating{
+    width: 13%;
+    margin-left: 30px;
+    padding-top: 60px;
+    z-index: 1;
+}
+
+.aboutimg{
+    width: 40%;
+    /* z-index: -1; */
+    margin-left: -100px;
+    
+}
+
+.vector2{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 700px;
+    z-index: -1;
+}
+
+.h33{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+hr{
+    width: 15%;
+}
+
+.imgcon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: 160px;
+
+}
+
+.imgcon img{
+    width: 8%;
+    height: 23px;
+    margin-left: 50px;
+}

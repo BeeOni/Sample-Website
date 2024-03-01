@@ -1,0 +1,83 @@
+.headercon{
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    width: 10%;
+    margin-left: 80px;
+    margin-right: 260px;
+}
+
+.headercon ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.headercon ul li{
+    margin-right: 70px;
+    font-size: 15px;
+    
+}
+
+
+
+.headercon ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0093ff;
+}
+
+.headercon button{
+    border: 1px solid #0093ff;
+    background-color: #0093ff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.headercon button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    .logo{
+        width: 7%;
+        margin-right: 40px;
+        margin-left: 40px;
+        
+    }
+
+    .headercon ul li{
+        margin-right: 20px;
+        font-size: 11px;
+        
+    }
+
+    .headercon button{
+        border: 1px solid #0093ff;
+        background-color: #0093ff;
+        color: white;
+        border-radius: 5px;
+        padding: 7px 15px;
+        font-size: 11px;
+    }
+}  
+
+@media screen and (max-width: 460px) {
+    .logo{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .headercon ul li{
+        margin-right: 20px;
+        font-size: 11px;
+        
+    }
+}  

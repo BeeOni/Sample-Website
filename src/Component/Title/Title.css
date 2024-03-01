@@ -1,0 +1,70 @@
+.titlecon{
+    background-image: url(Untitled\ design\ \(11\).png);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.titlesubcon{
+    border: hidden;
+    width: 80%;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.titlecon h2{
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+.p1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.but2{
+   margin-left: 30px;
+   border: 1px solid white;
+   background-color: rgba(255, 255, 255, 0);
+   padding: 15px 40px;
+   border-radius: 5px;
+   color: white;
+}
+
+.but1{
+   margin-left: 230px;
+   border: 1px solid #0093ff;
+   background-color: #0093ff;
+   padding: 15px 40px;
+   border-radius: 5px;
+   color: white;
+}
+
+.p2{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    font-size: 15px;
+}
+
+.vector{
+    width: 2%;
+    display: block;
+    margin-left: 595px;
+    margin-top: 20px;
+}
+
+.arrow{
+    width: 1%;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 850px){
+    .titlesubcon{
+        width: 90%;
+        padding-top: 120px;
+    }
+}
